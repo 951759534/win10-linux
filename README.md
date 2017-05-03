@@ -52,3 +52,39 @@ apt-get -y install libgtk2.0-0
 运行
 subl
 
+
+
+linux命令  
+cd空格 命令 
+sudo su进入管理员权限   
+exit 退出管理员权限  
+sudo apt-get update 软件包名  安装软件包  
+apt-cache search：搜索软件包  
+apt-get autoremove：删除软件包  
+不是deb的可以
+sudo dpkg -i *.deb  
+tab键可以补全命令  
+pwd显示当前目录  Print Working Directory的缩写
+ls -l列出详情  
+蓝色-->目录
+
+绿色-->可执行文件
+
+红色-->压缩文件
+
+浅蓝色-->链接文件
+
+灰色-->其他文件
+ls -h显示文件大小  
+cd 重回根目录  
+du是英语disk usage的缩写，表示“磁盘使用/占用”  
+du -s显示总占用  
+cat命令：一次性显示文件的所有内容  
+less命令：分页显示文件内容  
+touch命令：创建一个空白文件   
+mkdir：创建一个目录  
+cp命令：拷贝文件或目录  
+cp * .txt folder  cp ha* folder
+rm命令：删除文件和目录  
+passwd 用户名：修改密码  
+adduser 用户名:  添加用户
