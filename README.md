@@ -88,3 +88,17 @@ cp * .txt folder  cp ha* folder
 rm命令：删除文件和目录  
 passwd 用户名：修改密码  
 adduser 用户名:  添加用户
+* 在Linux界面显示中文  
+   第一步  
+    sudo apt-get install language-pack-zh-hant language-pack-zh-hans  
+   第二步  
+   sudo nano /etc/environment  
+   增加
+   LANG="zh_CN.UTF-8"
+   UNZIP="-O CP936"
+   ZIPINFO="-O CP936"
+   第三步  
+   sudo dpkg-reconfigure locales  
+   选择 zh_CN.UTF-8 UTF-8
+   
+ 
